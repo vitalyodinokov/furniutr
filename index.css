@@ -1,0 +1,195 @@
+@font-face {
+    font-family: SF Pro Display-bold;
+    src: url(./fonts/sfpro/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url(./fonts/sfpro/SFPRODISPLAYREGULAR.OTF);
+}
+
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url(./fonts/nunito/static/NunitoSans_10pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 208px auto auto;
+    margin: 0;
+}
+
+.logo {
+    font-family: SF Pro Display-bold;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #282A30;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.headerBtn {
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.8px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.rectanglered {
+    width: 35px;
+    height: 264px;
+    background-color: #F7515C;
+    opacity: 1;
+    position: absolute;
+}
+
+.roomImg {
+    position: absolute;
+}
+
+.container1 {}
+
+.vectorLattice {
+    width: 1000px;
+}
+
+.darkText {
+    font-family: Montserrat-Bold;
+    font-size: 55px;
+    font-weight: bold;
+    width: 650px;
+    position: absolute;
+    margin-top: 160px;
+    left: 100px;
+    line-height: 67.05px;
+    color: #282A30;
+}
+
+.redText {
+    font-family: Poppins;
+    font-weight: bold;
+    position: absolute;
+    color: #F7515C;
+    left: 100px;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+
+.vectorDots {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 250px;
+}
+
+.watchvideoBtn {
+    width: 225px;
+    height: 58px;
+}
+
+.c1btnBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    width: 500px;
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+}
+
+.discoverBtn {
+    font-family: Montserrat;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    left: 100px;
+    width: 207px;
+    height: 78px;
+    background-color: #F7515C;
+    border: none;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.playBtn {
+    cursor: pointer;
+}
+
+.footer {
+    margin-left: 99px;
+    margin-right: 99px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.footerH1 {
+    font-family: SF Pro Display;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.2px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.bottomLine {
+    margin-left: 99px;
+    margin-right: 99px;
+    height: 2px;
+    background-color: #282A30;
+}
+
+.footerP {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #282A30CC;
+    cursor: pointer;
+}
+.headerBtnTxt {
+    cursor: pointer;
+}
